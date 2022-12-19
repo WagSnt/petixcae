@@ -1,0 +1,19 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.makeYourWish {
+  display: flex;
+  justify-content: center;
+}
+
+.makeYourWishBtn {
+  background-color: $btn-color;
+  color: white;
+  font-size: 1.3rem;
+  padding: 20px;
+  border: none;
+  border-radius: 50px;
+}
