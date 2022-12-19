@@ -14,7 +14,7 @@
 }
 
 .bg-video {
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
   min-width: 100vw;
@@ -36,6 +36,14 @@
 .header #navItem:hover {
   color: #F2A7A7;
 }
+.header #statusSignBtn {
+  background-color: #569937;
+  padding: 8px;
+  border-radius: 50%;
+}
+.header .paragraphStatus {
+  font-size: 0.7rem;
+}
 .header #iconHeader {
   height: 50px;
 }
@@ -47,7 +55,7 @@
 .logo {
   display: flex;
   justify-content: center;
-  margin-top: 15px;
+  margin-top: 40px;
 }
 
 .makeYourWish {
@@ -58,10 +66,20 @@
 .makeYourWishBtn {
   background-color: #569937;
   color: white;
+  margin-bottom: 30px;
   font-size: 1.3rem;
   padding: 20px;
   border: none;
   border-radius: 50px;
+}
+
+.arrowDown {
+  display: flex;
+  justify-content: center;
+}
+.arrowDown #arrowDownBtn {
+  margin-top: 150px;
+  height: 5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

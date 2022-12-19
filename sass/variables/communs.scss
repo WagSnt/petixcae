@@ -14,7 +14,7 @@
 }
 
 .bg-video {
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
   min-width: 100vw;
@@ -35,9 +35,21 @@
       color: $hover-color;
     }
   }
+
+  #statusSignBtn {
+    background-color: $btn-color;
+    padding: 8px;
+    border-radius: 50%;
+  }
+
+  .paragraphStatus {
+    font-size: 0.7rem;
+  }
+
   #iconHeader {
     height: 50px;
   }
+
   #iconLogin {
     color: $font-color;
     font-size: 45px;
