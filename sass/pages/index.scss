@@ -27,3 +27,13 @@
     height: 5rem;
   }
 }
+
+.container1 {
+  background-color: $bg-color;
+  height: 600px;
+  color: $primary-color;
+  .card {
+    background-color: transparent;
+    border: none;
+  }
+}
