@@ -5,22 +5,28 @@
 
 .body {
   background-color: $bg-color;
-  overflow-x: hidden;
+  //overflow-x: hidden;
+  height: 100vh;
+  width: 99.1vw;
+}
+
+.h2 {
+  color: $primary-color;
 }
 
 .container00 {
   height: 100vh;
-  width: 100%;
+  width: 100vw;
 }
 
 .bg-video {
   position: fixed;
   left: 0;
   bottom: 0;
-  min-width: 100vw;
-  min-height: 100vh;
-  width: 100vw;
-  height: 100vh;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: 100%;
   z-index: -100;
   opacity: 0.6;
 }
@@ -53,20 +59,5 @@
   #iconLogin {
     color: $font-color;
     font-size: 45px;
-  }
-}
-
-.container1 {
-  .card {
-    width: 20rem;
-  }
-  .cards {
-    text-align: center;
-    justify-content: space-between;
-  }
-
-  .cards-title {
-    width: 40rem;
-    font-size: 1rem;
   }
 }
