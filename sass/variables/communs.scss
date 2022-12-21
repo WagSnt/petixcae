@@ -54,6 +54,19 @@
     color: $font-color;
     font-size: 45px;
   }
+}
 
-  
+.container1 {
+  .card {
+    width: 20rem;
+  }
+  .cards {
+    text-align: center;
+    justify-content: space-between;
+  }
+
+  .cards-title {
+    width: 40rem;
+    font-size: 1rem;
+  }
 }
