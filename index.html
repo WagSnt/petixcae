@@ -23,6 +23,9 @@
       <header class="header">
         <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
           <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
@@ -78,7 +81,10 @@
       <div class="row mt-5 cards">
         <div class="col-sm-1 cards-width">
           <div class="card">
-            <img src="images/icons/app.png" class="card-img-top imgCard" alt="pedido">
+            <picture>
+              <source media="(max-width: 1200px)" srcset="images/icons/app-150.png" class="card-img-top imgCard" alt="pedido">
+              <img src="images/icons/app.png" class="card-img-top imgCard" alt="pedido">
+            </picture>
             <div class="card-body">
               <h5 class="card-title cards-title">QUAL O TAMANHO DA FOME?</h5>
               <p class="card-text support-text">Escolha o tamanho do combo e o que vai comer</p>

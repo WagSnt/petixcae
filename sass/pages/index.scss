@@ -12,9 +12,8 @@
 .makeYourWishBtn {
   background-color: $btn-color;
   color: white;
-  margin-bottom: 30px;
-  font-size: 1.3rem;
-  padding: 20px;
+  font-size: 1.2rem;
+  padding: 15px;
   border: none;
   border-radius: 50px;
 }
@@ -23,7 +22,7 @@
   display: flex;
   justify-content: center;
   #arrowDownBtn {
-    margin-top: 150px;
+    margin-top: 100px;
     height: 5rem;
   }
 }
@@ -111,7 +110,7 @@
   }
 
   video {
-    width: 99.1vw;
+    width: 100%;
   }
 
   .container3-content {
@@ -175,12 +174,12 @@
   }
 
   .comments {
-    min-height: 100vh;
+    height: 100%;
     padding: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px 15px;
-    grid-auto-rows: minmax(180px, 220px);
+    grid-auto-rows: minmax(160px, 200px);
     
     .item {
       border: 2px solid $primary-color;
@@ -196,6 +195,38 @@
     .item5 {
       grid-column: 3/4;
       grid-row: 2/4;
+    }
+  }
+}
+
+// MEDIA QUERY
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .container1 {
+    .cards {
+      gap: 1rem;
+    }
+  }
+
+  .container2 {
+    font-size: 1em;
+    line-height: 1.7em;
+    gap: 5rem;
+
+    img {
+      height: 500px;
+      width: 500px;
+    }
+  }
+}
+
+@media (max-width: 1480px) {
+  .container1 {
+    .cards-width {
+      width: 300px;
+    }
+    .imgCard {
+      width: 200px
     }
   }
 }
