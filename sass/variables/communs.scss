@@ -61,3 +61,69 @@
     font-size: 45px;
   }
 }
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.6;
+  z-index: -10;
+}
+
+.footer {
+  background-color: $bg-footer-color;
+  height: 250px;
+  footer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .social {
+      text-align: center;
+      padding: 20px;
+      color: $font-color;
+      font-weight: bold;
+      p {
+        padding-bottom: 15px;
+      }
+      img {
+        height: 50px;
+        border-radius: 300px;
+      }
+    }
+  }
+
+  .hour {
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  .footer-icon {
+    color: $primary-color;
+    font-size: 100px;
+  }
+  .h5 {
+    color: $font-color;
+  }
+  p {
+    color: $support-text-color;
+  }
+
+  .submenu, .legal {
+    text-align: justify;
+    
+    a {
+      color: $font-color;
+      padding: 0.5rem 0rem;
+
+      &:hover {
+        color: $hover-color;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+  
+  
