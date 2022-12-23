@@ -35,13 +35,23 @@ html, body {
 
 .header {
   margin-top: 10px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bolder;
 
-  #navItem {
-    color: $font-color;
-    &:hover {
-      color: $hover-color;
+  .flexHeader {
+    display: flex;
+
+    #navItem {
+      color: $font-color;
+      &:hover {
+        color: $hover-color;
+      }
+    }
+
+    .orderSchedule{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
     }
   }
 

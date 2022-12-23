@@ -21,47 +21,52 @@
     </div>
     <div class="container"> <!-- Posicionando o header-->
       <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="flexHeader">
           <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation" id="mobileMenu">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+              <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation" id="mobileMenu">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#" id="navItem">INÍCIO</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" id="navItem">CARDÁPIO</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" id="navItem">SOBRE NÓS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="navItem">CONTATO</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>   
+          <div class="container-fluid socialHeader">
+            <div class="orderSchedule">
+              <ul class="nav justify-content-center me-5">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#" id="navItem">INÍCIO</a>
+                  <button id="statusSignBtn"></button>
+                  <label for="statusSignBtn" id="navItem" class="paragraphStatus">ABERTO AGORA</label>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#" id="navItem">CARDÁPIO</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#" id="navItem">SOBRE NÓS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" id="navItem">CONTATO</a>
+                <li class="nav-item navItem">
+                  <a href="#" id="navItem" class="paragraphStatus">|VER HORÁRIOS</a>
                 </li>
               </ul>
-
-              <div class="orderSchedule">
-                <ul class="nav justify-content-center me-5">
-                  <li class="nav-item">
-                    <button id="statusSignBtn"></button>
-                    <label for="statusSignBtn" id="navItem" class="paragraphStatus">ABERTO AGORA</label>
-                  </li>
-                  <li class="nav-item navItem">
-                    <a href="#" id="navItem" class="paragraphStatus">|VER HORÁRIOS</a>
-                  </li>
-                </ul>
-              </div>
               <form class="d-flex">
                 <a class="me-2" type="button"><img src="images/icons/instagram.png" alt="instagram" id="iconHeader"></a>
                 <span class="material-symbols-outlined" id="iconLogin">
                   account_circle
-                  </span>
+                </span>
               </form>
             </div>
           </div>
-        </nav>
+        </div>
       </header>
     </div> 
     <div class="logo">

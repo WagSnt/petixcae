@@ -246,7 +246,39 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .header {
+  .container1 {
+    height: 550px;
+    .imgCard {
+      width: 150px;
+    }
+
+    .cards {
+      gap: 15px;
+    }
+
+    .cards-width {
+      width: 220px;
+    }
+  }
+
+  .container2 {
+    flex-direction: column-reverse;
+    font-size: 1.3em;
+    line-height: 1.3em;
+    padding-bottom: 50px;
     
+    img {
+      width: 500px;
+    }
+  }
+
+  .container3 {
+    height: 432px;
+  }
+
+  .footer {
+    .footer-icon {
+      font-size: 50px;
+    }
   }
 }

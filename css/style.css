@@ -35,14 +35,22 @@ html, body {
 
 .header {
   margin-top: 10px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bolder;
 }
-.header #navItem {
+.header .flexHeader {
+  display: flex;
+}
+.header .flexHeader #navItem {
   color: #FDF8F2;
 }
-.header #navItem:hover {
+.header .flexHeader #navItem:hover {
   color: #F2A7A7;
+}
+.header .flexHeader .orderSchedule {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .header #statusSignBtn {
   background-color: #569937;
@@ -335,6 +343,35 @@ html, body {
   .footer .submenu a, .footer .legal a {
     color: #FDF8F2;
     padding: 4px 0px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .container1 {
+    height: 550px;
+  }
+  .container1 .imgCard {
+    width: 150px;
+  }
+  .container1 .cards {
+    gap: 15px;
+  }
+  .container1 .cards-width {
+    width: 220px;
+  }
+  .container2 {
+    flex-direction: column-reverse;
+    font-size: 1.3em;
+    line-height: 1.3em;
+    padding-bottom: 50px;
+  }
+  .container2 img {
+    width: 500px;
+  }
+  .container3 {
+    height: 432px;
+  }
+  .footer .footer-icon {
+    font-size: 50px;
   }
 }
 
