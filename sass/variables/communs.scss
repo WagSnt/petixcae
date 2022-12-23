@@ -37,6 +37,7 @@ html, body {
   margin-top: 10px;
   font-size: 20px;
   font-weight: bolder;
+
   #navItem {
     color: $font-color;
     &:hover {
@@ -91,8 +92,9 @@ html, body {
         padding-bottom: 15px;
       }
       img {
-        height: 50px;
+        height: 35px;
         border-radius: 300px;
+        margin: 2px;
       }
     }
   }
@@ -106,7 +108,7 @@ html, body {
     color: $primary-color;
     font-size: 100px;
   }
-  .h5 {
+  .h6 {
     color: $font-color;
   }
   p {

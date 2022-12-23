@@ -90,8 +90,9 @@ html, body {
   padding-bottom: 15px;
 }
 .footer footer .social img {
-  height: 50px;
+  height: 35px;
   border-radius: 300px;
+  margin: 2px;
 }
 .footer .hour {
   color: white;
@@ -102,7 +103,7 @@ html, body {
   color: #BF5B04;
   font-size: 100px;
 }
-.footer .h5 {
+.footer .h6 {
   color: #FDF8F2;
 }
 .footer p {
@@ -304,6 +305,14 @@ html, body {
   grid-row: 2/4;
 }
 
+@media (max-width: 1480px) {
+  .container1 .cards-width {
+    width: 300px;
+  }
+  .container1 .imgCard {
+    width: 200px;
+  }
+}
 @media (min-width: 992px) and (max-width: 1200px) {
   .container1 .cards {
     gap: 1rem;
@@ -317,13 +326,15 @@ html, body {
     height: 500px;
     width: 500px;
   }
-}
-@media (max-width: 1480px) {
-  .container1 .cards-width {
-    width: 300px;
+  .footer .footer-icon {
+    font-size: 80px;
   }
-  .container1 .imgCard {
-    width: 200px;
+  .footer .hour {
+    width: 400px;
+  }
+  .footer .submenu a, .footer .legal a {
+    color: #FDF8F2;
+    padding: 4px 0px;
   }
 }
 

@@ -201,6 +201,17 @@
 
 // MEDIA QUERY
 
+@media (max-width: 1480px) {
+  .container1 {
+    .cards-width {
+      width: 300px;
+    }
+    .imgCard {
+      width: 200px
+    }
+  }
+}
+
 @media (min-width: 992px) and (max-width: 1200px) {
   .container1 {
     .cards {
@@ -218,15 +229,24 @@
       width: 500px;
     }
   }
+  .footer {
+    .footer-icon {
+      font-size: 80px;
+    }
+    .hour {
+      width: 400px;
+    }
+    .submenu, .legal {
+      a {
+        color: $font-color;
+        padding: 4px 0px;
+      }
+    }
+  }
 }
 
-@media (max-width: 1480px) {
-  .container1 {
-    .cards-width {
-      width: 300px;
-    }
-    .imgCard {
-      width: 200px
-    }
+@media (min-width: 768px) and (max-width: 991px) {
+  .header {
+    
   }
 }
